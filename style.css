@@ -1,0 +1,88 @@
+body {
+    background-color: #f7f7f7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+/* Form container styling */
+
+.container {
+    max-width: 600px;
+    background-color: rgb(152, 178, 247);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+/* Form input fields styling */
+.form-control {
+    border: 2px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+/* Input focus effect */
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: none;
+}
+
+/* Button styling */
+button {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive margin */
+.mt-5 {
+    margin-top: 50px;
+}
+
+/* Validation error messages */
+.invalid-feedback {
+    font-size: 14px;
+    color: #ff0019;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover  ;
+    align-items: center;
+}
+
+.container {
+    max-width: 600px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
